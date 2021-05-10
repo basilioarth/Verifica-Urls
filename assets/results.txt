@@ -3,95 +3,1791 @@
 Acauã
 http://acaua.pi.gov.br
 Success
-<Response [200]>
+200
 http://acaua.pi.leg.br
 Success
-<Response [200]>
+200
 
 Agricolândia
 http://agricolandia.pi.gov.br
 Success
-<Response [200]>
+200
 http://agricolandia.pi.leg.br
 Success
-<Response [200]>
+200
 
 Água Branca
 http://aguabranca.pi.gov.br
 Success
-<Response [200]>
+200
 http://aguabranca.pi.leg.br
 Success
-<Response [200]>
+200
 
 Alagoinha do Piauí
 http://alagoinhadopiaui.pi.gov.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPConnectionPool(host='alagoinhadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A67F430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 http://alagoinhadopiaui.pi.leg.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPConnectionPool(host='alagoinhadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A696B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 
 Alegrete do Piauí
 http://alegretedopiaui.pi.gov.br
 Success
-<Response [200]>
+200
 http://alegretedopiaui.pi.leg.br
 Success
-<Response [200]>
+200
 
 Alto Longá
 http://altolonga.pi.gov.br
 Success
-<Response [200]>
+200
 http://altolonga.pi.leg.br
 Success
-<Response [200]>
+200
 
 Altos
 http://altos.pi.gov.br
 Success
-<Response [200]>
+200
 http://altos.pi.leg.br
 Success
-<Response [200]>
+200
 
 Alvorada do Gurguéia
 http://alvoradadogurgueia.pi.gov.br
 Success
-<Response [200]>
+200
 http://alvoradadogurgueia.pi.leg.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alvoradadogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D74E760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPConnectionPool(host='alvoradadogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6BA130>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 
 Amarante
 http://amarante.pi.gov.br
 Success
-<Response [200]>
+200
 http://amarante.pi.leg.br
 Fail
-HTTP error occurred: 404 Client Error: Not Found for url: http://amarante.pi.leg.br/
+404
 
 Angical do Piauí
 http://angicaldopiaui.pi.gov.br
 Fail
-Other error occurred: HTTPConnectionPool(host='angicaldopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPConnectionPool(host='angicaldopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6A7430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 http://angicaldopiaui.pi.leg.br
 Success
-<Response [200]>
+200
 
 Anísio de Abreu
 http://anisiodeabreu.pi.gov.br
 Success
-<Response [200]>
+200
 http://anisiodeabreu.pi.leg.br
 Fail
-Other error occurred: HTTPConnectionPool(host='anisiodeabreu.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D74E820>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPConnectionPool(host='anisiodeabreu.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 
 Antônio Almeida
 http://antonioalmeida.pi.gov.br
-Fail
-HTTP error occurred: 406 Client Error: Not Acceptable for url: http://antonioalmeida.pi.gov.br/
+Success
+200
 http://antonioalmeida.pi.leg.br
 Success
-<Response [200]>
+200
+
+Aroazes
+http://aroazes.pi.gov.br
+Success
+200
+http://aroazes.pi.leg.br
+Success
+200
+
+Aroeiras do Itaim
+http://aroeirasdoitaim.pi.gov.br
+Success
+200
+http://aroeirasdoitaim.pi.leg.br
+Success
+200
+
+Arraial
+http://arraial.pi.gov.br
+Success
+200
+http://arraial.pi.leg.br
+Success
+200
+
+Assunção do Piauí
+http://assuncaodopiaui.pi.gov.br
+Success
+200
+http://assuncaodopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='assuncaodopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6D76D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Avelino Lopes
+http://avelinolopes.pi.gov.br
+Success
+200
+http://avelinolopes.pi.leg.br
+Fail
+HTTPConnectionPool(host='avelinolopes.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6BA3A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Baixa Grande do Ribeiro
+http://baixagrandedoribeiro.pi.gov.br
+Fail
+404
+http://baixagrandedoribeiro.pi.leg.br
+Success
+200
+
+Barra D Alcântara
+http://barradalcantara.pi.gov.br
+Success
+200
+http://barradalcantara.pi.leg.br
+Success
+200
+
+Barras
+http://barras.pi.gov.br
+Success
+200
+http://barras.pi.leg.br
+Success
+200
+
+Barreiras do Piauí
+http://barreirasdopiaui.pi.gov.br
+Success
+200
+http://barreirasdopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='barreirasdopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Barro Duro
+http://barroduro.pi.gov.br
+Success
+200
+http://barroduro.pi.leg.br
+Success
+200
+
+Batalha
+http://batalha.pi.gov.br
+Success
+200
+http://batalha.pi.leg.br
+Success
+200
+
+Bela Vista do Piauí
+http://belavistadopiaui.pi.gov.br
+Success
+200
+http://belavistadopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='belavistadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6F9FD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Belém do Piauí
+http://belemdopiaui.pi.gov.br
+Success
+200
+http://belemdopiaui.pi.leg.br
+Success
+200
+
+Beneditinos
+http://beneditinos.pi.gov.br
+Success
+200
+http://beneditinos.pi.leg.br
+Success
+200
+
+Bertolínia
+http://bertolinia.pi.gov.br
+Success
+200
+http://bertolinia.pi.leg.br
+Success
+200
+
+Betânia do Piauí
+http://betaniadopiaui.pi.gov.br
+Success
+200
+http://betaniadopiaui.pi.leg.br
+Success
+200
+
+Boa Hora
+http://boahora.pi.gov.br
+Success
+200
+http://boahora.pi.leg.br
+Fail
+HTTPConnectionPool(host='boahora.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6E6730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Bocaina
+http://bocaina.pi.gov.br
+Success
+200
+http://bocaina.pi.leg.br
+Fail
+HTTPConnectionPool(host='bocaina.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716BB0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+
+Bom Jesus
+http://bomjesus.pi.gov.br
+Success
+200
+http://bomjesus.pi.leg.br
+Success
+200
+
+Bom Princípio do Piauí
+http://bomprincipiodopiaui.pi.gov.br
+Success
+200
+http://bomprincipiodopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='bomprincipiodopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A70AE50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Bonfim do Piauí
+http://bonfimdopiaui.pi.gov.br
+Success
+200
+http://bonfimdopiaui.pi.leg.br
+Success
+200
+
+Boqueirão do Piauí
+http://boqueiraodopiaui.pi.gov.br
+Success
+200
+http://boqueiraodopiaui.pi.leg.br
+Success
+200
+
+Brasileira
+http://brasileira.pi.gov.br
+Success
+200
+http://brasileira.pi.leg.br
+Success
+200
+
+Brejo do Piauí
+http://brejodopiaui.pi.gov.br
+Success
+200
+http://brejodopiaui.pi.leg.br
+Success
+200
+
+Buriti dos Lopes
+http://buritidoslopes.pi.gov.br
+Success
+200
+http://buritidoslopes.pi.leg.br
+Success
+200
+
+Buriti dos Montes
+http://buritidosmontes.pi.gov.br
+Success
+200
+http://buritidosmontes.pi.leg.br
+Success
+200
+
+Cabeceiras do Piauí
+http://cabeceirasdopiaui.pi.gov.br
+Success
+200
+http://cabeceirasdopiaui.pi.leg.br
+Success
+200
+
+Cajazeiras do Piauí
+http://cajazeirasdopiaui.pi.gov.br
+Success
+200
+http://cajazeirasdopiaui.pi.leg.br
+Success
+200
+
+Cajueiro da Praia
+http://cajueirodapraia.pi.gov.br
+Success
+200
+http://cajueirodapraia.pi.leg.br
+Success
+200
+
+Caldeirão Grande do Piauí
+http://caldeiraograndedopiaui.pi.gov.br
+Success
+200
+http://caldeiraograndedopiaui.pi.leg.br
+Success
+200
+
+Campinas do Piauí
+http://campinasdopiaui.pi.gov.br
+Success
+200
+http://campinasdopiaui.pi.leg.br
+Success
+200
+
+Campo Alegre do Fidalgo
+http://campoalegredofidalgo.pi.gov.br
+Success
+200
+http://campoalegredofidalgo.pi.leg.br
+Success
+200
+
+Campo Grande do Piauí
+http://campograndedopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='campograndedopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729E80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://campograndedopiaui.pi.leg.br
+Success
+200
+
+Campo Largo do Piauí
+http://campolargodopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='campolargodopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716FD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://campolargodopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='campolargodopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A70A640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Campo Maior
+http://campomaior.pi.gov.br
+Success
+200
+http://campomaior.pi.leg.br
+Success
+200
+
+Canavieira
+http://canavieira.pi.gov.br
+Success
+200
+http://canavieira.pi.leg.br
+Fail
+HTTPConnectionPool(host='canavieira.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Canto do Buriti
+http://cantodoburiti.pi.gov.br
+Success
+200
+http://cantodoburiti.pi.leg.br
+Success
+200
+
+Capitão de Campos
+http://capitaodecampos.pi.gov.br
+Success
+200
+http://capitaodecampos.pi.leg.br
+Success
+200
+
+Capitão Gervásio Oliveira
+http://capitaogervasiooliveira.pi.gov.br
+Success
+200
+http://capitaogervasiooliveira.pi.leg.br
+Success
+200
+
+Caracol
+http://caracol.pi.gov.br
+Success
+200
+http://caracol.pi.leg.br
+Success
+200
+
+Caraúbas do Piauí
+http://caraubasdopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='caraubasdopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716670>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://caraubasdopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='caraubasdopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A70A490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Caridade do Piauí
+http://caridadedopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='caridadedopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://caridadedopiaui.pi.leg.br
+Success
+200
+
+Castelo do Piauí
+http://castelodopiaui.pi.gov.br
+Success
+200
+http://castelodopiaui.pi.leg.br
+Success
+200
+
+Caxingó
+http://caxingo.pi.gov.br
+Success
+200
+http://caxingo.pi.leg.br
+Success
+200
+
+Cocal
+http://cocal.pi.gov.br
+Success
+200
+http://cocal.pi.leg.br
+Fail
+HTTPConnectionPool(host='cocal.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Cocal de Telha
+http://cocaldetelha.pi.gov.br
+Success
+200
+http://cocaldetelha.pi.leg.br
+Success
+200
+
+Cocal dos Alves
+http://cocaldosalves.pi.gov.br
+Success
+200
+http://cocaldosalves.pi.leg.br
+Success
+200
+
+Coivaras
+http://coivaras.pi.gov.br
+Success
+200
+http://coivaras.pi.leg.br
+Fail
+HTTPConnectionPool(host='coivaras.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Colônia do Gurguéia
+http://coloniadogurgueia.pi.gov.br
+Success
+200
+http://coloniadogurgueia.pi.leg.br
+Fail
+HTTPConnectionPool(host='coloniadogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A70AF70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Colônia do Piauí
+http://coloniadopiaui.pi.gov.br
+Success
+200
+http://coloniadopiaui.pi.leg.br
+Success
+200
+
+Conceição do Canindé
+http://conceicaodocaninde.pi.gov.br
+Success
+200
+http://conceicaodocaninde.pi.leg.br
+Fail
+HTTPConnectionPool(host='conceicaodocaninde.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6F9040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Coronel José Dias
+http://coroneljosedias.pi.gov.br
+Success
+200
+http://coroneljosedias.pi.leg.br
+Fail
+HTTPConnectionPool(host='coroneljosedias.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A72A100>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Corrente
+http://corrente.pi.gov.br
+Success
+200
+http://corrente.pi.leg.br
+Success
+200
+
+Cristalândia do Piauí
+http://cristalandiadopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='cristalandiadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://cristalandiadopiaui.pi.leg.br
+Success
+200
+
+Cristino Castro
+http://cristinocastro.pi.gov.br
+Success
+200
+http://cristinocastro.pi.leg.br
+Success
+200
+
+Curimatá
+http://curimata.pi.gov.br
+Success
+200
+http://curimata.pi.leg.br
+Success
+200
+
+Currais
+http://currais.pi.gov.br
+Success
+200
+http://currais.pi.leg.br
+Success
+200
+
+Curral Novo do Piauí
+http://curralnovodopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='curralnovodopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6D7760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://curralnovodopiaui.pi.leg.br
+Success
+200
+
+Curralinhos
+http://curralinhos.pi.gov.br
+Success
+200
+http://curralinhos.pi.leg.br
+Fail
+HTTPConnectionPool(host='curralinhos.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A72A8B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Demerval Lobão
+http://demervallobao.pi.gov.br
+Success
+200
+http://demervallobao.pi.leg.br
+Success
+200
+
+Dirceu Arcoverde
+http://dirceuarcoverde.pi.gov.br
+Success
+200
+http://dirceuarcoverde.pi.leg.br
+Fail
+HTTPConnectionPool(host='dirceuarcoverde.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A72A970>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Dom Expedito Lopes
+http://domexpeditolopes.pi.gov.br
+Success
+200
+http://domexpeditolopes.pi.leg.br
+Fail
+HTTPConnectionPool(host='domexpeditolopes.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C68B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Dom Inocêncio
+http://dominocencio.pi.gov.br
+Success
+200
+http://dominocencio.pi.leg.br
+Success
+200
+
+Domingos Mourão
+http://domingosmourao.pi.gov.br
+Success
+200
+http://domingosmourao.pi.leg.br
+Success
+200
+
+Elesbão Veloso
+http://elesbaoveloso.pi.gov.br
+Success
+200
+http://elesbaoveloso.pi.leg.br
+Success
+200
+
+Eliseu Martins
+http://eliseumartins.pi.gov.br
+Success
+200
+http://eliseumartins.pi.leg.br
+Success
+200
+
+Esperantina
+http://esperantina.pi.gov.br
+Success
+200
+http://esperantina.pi.leg.br
+Success
+200
+
+Fartura do Piauí
+http://farturadopiaui.pi.gov.br
+Success
+200
+http://farturadopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='farturadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6E6F70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Flores do Piauí
+http://floresdopiaui.pi.gov.br
+Success
+200
+http://floresdopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='floresdopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A696EE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Floresta do Piauí
+http://florestadopiaui.pi.gov.br
+Success
+200
+http://florestadopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='florestadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6E6B80>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+
+Floriano
+http://floriano.pi.gov.br
+Success
+200
+http://floriano.pi.leg.br
+Success
+200
+
+Francinópolis
+http://francinopolis.pi.gov.br
+Success
+200
+http://francinopolis.pi.leg.br
+Success
+200
+
+Francisco Ayres
+http://franciscoayres.pi.gov.br
+Success
+200
+http://franciscoayres.pi.leg.br
+Success
+200
+
+Francisco Macedo
+http://franciscomacedo.pi.gov.br
+Success
+200
+http://franciscomacedo.pi.leg.br
+Success
+200
+
+Francisco Santos
+http://franciscosantos.pi.gov.br
+Success
+200
+http://franciscosantos.pi.leg.br
+Success
+200
+
+Fronteiras
+http://fronteiras.pi.gov.br
+Success
+200
+http://fronteiras.pi.leg.br
+Success
+200
+
+Geminiano
+http://geminiano.pi.gov.br
+Success
+200
+http://geminiano.pi.leg.br
+Success
+200
+
+Gilbués
+http://gilbues.pi.gov.br
+Success
+200
+http://gilbues.pi.leg.br
+Success
+200
+
+Guadalupe
+http://guadalupe.pi.gov.br
+Success
+200
+http://guadalupe.pi.leg.br
+Success
+200
+
+Guaribas
+http://guaribas.pi.gov.br
+Success
+200
+http://guaribas.pi.leg.br
+Success
+200
+
+Hugo Napoleão
+http://hugonapoleao.pi.gov.br
+Success
+200
+http://hugonapoleao.pi.leg.br
+Success
+200
+
+Ilha Grande
+http://ilhagrande.pi.gov.br
+Success
+200
+http://ilhagrande.pi.leg.br
+Fail
+HTTPConnectionPool(host='ilhagrande.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A696DF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Inhuma
+http://inhuma.pi.gov.br
+Success
+200
+http://inhuma.pi.leg.br
+Success
+200
+
+Ipiranga do Piauí
+http://ipirangadopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='ipirangadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6E50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://ipirangadopiaui.pi.leg.br
+Success
+200
+
+Isaías Coelho
+http://isaiascoelho.pi.gov.br
+Success
+200
+http://isaiascoelho.pi.leg.br
+Success
+200
+
+Itainópolis
+http://itainopolis.pi.gov.br
+Success
+200
+http://itainopolis.pi.leg.br
+Success
+200
+
+Itaueira
+http://itaueira.pi.gov.br
+Success
+200
+http://itaueira.pi.leg.br
+Success
+200
+
+Jacobina do Piauí
+http://jacobinadopiaui.pi.gov.br
+Success
+200
+http://jacobinadopiaui.pi.leg.br
+Fail
+404
+
+Jaicós
+http://jaicos.pi.gov.br
+Success
+200
+http://jaicos.pi.leg.br
+Success
+200
+
+Jardim do Mulato
+http://jardimdomulato.pi.gov.br
+Success
+200
+http://jardimdomulato.pi.leg.br
+Success
+200
+
+Jatobá do Piauí
+http://jatobadopiaui.pi.gov.br
+Success
+200
+http://jatobadopiaui.pi.leg.br
+Success
+200
+
+Jerumenha
+http://jerumenha.pi.gov.br
+Success
+200
+http://jerumenha.pi.leg.br
+Fail
+404
+
+João Costa
+http://joaocosta.pi.gov.br
+Success
+200
+http://joaocosta.pi.leg.br
+Success
+200
+
+Joaquim Pires
+http://joaquimpires.pi.gov.br
+Success
+200
+http://joaquimpires.pi.leg.br
+Success
+200
+
+Joca Marques
+http://jocamarques.pi.gov.br
+Success
+200
+http://jocamarques.pi.leg.br
+Success
+200
+
+José de Freitas
+http://josedefreitas.pi.gov.br
+Success
+200
+http://josedefreitas.pi.leg.br
+Success
+200
+
+Juazeiro do Piauí
+http://juazeirodopiaui.pi.gov.br
+Success
+200
+http://juazeirodopiaui.pi.leg.br
+Success
+200
+
+Júlio Borges
+http://julioborges.pi.gov.br
+Success
+200
+http://julioborges.pi.leg.br
+Success
+200
+
+Jurema
+http://jurema.pi.gov.br
+Success
+200
+http://jurema.pi.leg.br
+Success
+200
+
+Lagoa Alegre
+http://lagoaalegre.pi.gov.br
+Success
+200
+http://lagoaalegre.pi.leg.br
+Success
+200
+
+Lagoa de São Francisco
+http://lagoadesaofrancisco.pi.gov.br
+Success
+200
+http://lagoadesaofrancisco.pi.leg.br
+Success
+200
+
+Lagoa do Barro do Piauí
+http://lagoadobarrodopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='lagoadobarrodopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://lagoadobarrodopiaui.pi.leg.br
+Success
+200
+
+Lagoa do Piauí
+http://lagoadopiaui.pi.gov.br
+Success
+200
+http://lagoadopiaui.pi.leg.br
+Success
+200
+
+Lagoa do Sítio
+http://lagoadositio.pi.gov.br
+Success
+200
+http://lagoadositio.pi.leg.br
+Success
+200
+
+Lagoinha do Piauí
+http://lagoinhadopiaui.pi.gov.br
+Success
+200
+http://lagoinhadopiaui.pi.leg.br
+Success
+200
+
+Landri Sales
+http://landrisales.pi.gov.br
+Success
+200
+http://landrisales.pi.leg.br
+Success
+200
+
+Luís Correia
+http://luiscorreia.pi.gov.br
+Success
+200
+http://luiscorreia.pi.leg.br
+Success
+200
+
+Luzilândia
+http://luzilandia.pi.gov.br
+Success
+200
+http://luzilandia.pi.leg.br
+Success
+200
+
+Madeiro
+http://madeiro.pi.gov.br
+Success
+200
+http://madeiro.pi.leg.br
+Fail
+404
+
+Manoel Emídio
+http://manoelemidio.pi.gov.br
+Success
+200
+http://manoelemidio.pi.leg.br
+Fail
+HTTPConnectionPool(host='manoelemidio.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6D7700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Marcolândia
+http://marcolandia.pi.gov.br
+Success
+200
+http://marcolandia.pi.leg.br
+Success
+200
+
+Marcos Parente
+http://marcosparente.pi.gov.br
+Success
+200
+http://marcosparente.pi.leg.br
+Success
+200
+
+Massapê do Piauí
+http://massapedopiaui.pi.gov.br
+Success
+200
+http://massapedopiaui.pi.leg.br
+Success
+200
+
+Matias Olímpio
+http://matiasolimpio.pi.gov.br
+Success
+200
+http://matiasolimpio.pi.leg.br
+Success
+200
+
+Miguel Alves
+http://miguelalves.pi.gov.br
+Success
+200
+http://miguelalves.pi.leg.br
+Success
+200
+
+Miguel Leão
+http://miguelleao.pi.gov.br
+Success
+200
+http://miguelleao.pi.leg.br
+Success
+200
+
+Milton Brandão
+http://miltonbrandao.pi.gov.br
+Success
+200
+http://miltonbrandao.pi.leg.br
+Fail
+HTTPConnectionPool(host='miltonbrandao.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6F9580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Monsenhor Gil
+http://monsenhorgil.pi.gov.br
+Success
+200
+http://monsenhorgil.pi.leg.br
+Success
+200
+
+Monsenhor Hipólito
+http://monsenhorhipolito.pi.gov.br
+Success
+200
+http://monsenhorhipolito.pi.leg.br
+Fail
+HTTPConnectionPool(host='monsenhorhipolito.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Monte Alegre do Piauí
+http://montealegredopiaui.pi.gov.br
+Success
+200
+http://montealegredopiaui.pi.leg.br
+Success
+200
+
+Morro Cabeça no Tempo
+http://morrocabecanotempo.pi.gov.br
+Success
+200
+http://morrocabecanotempo.pi.leg.br
+Success
+200
+
+Morro do Chapéu do Piauí
+http://morrodochapeudopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='morrodochapeudopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6BACA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://morrodochapeudopiaui.pi.leg.br
+Success
+200
+
+Murici dos Portelas
+http://muricidosportelas.pi.gov.br
+Success
+200
+http://muricidosportelas.pi.leg.br
+Fail
+403
+
+Nazaré do Piauí
+http://nazaredopiaui.pi.gov.br
+Success
+200
+http://nazaredopiaui.pi.leg.br
+Success
+200
+
+Nazária
+http://nazaria.pi.gov.br
+Success
+200
+http://nazaria.pi.leg.br
+Success
+200
+
+Nossa Senhora de Nazaré
+http://nossasenhoradenazare.pi.gov.br
+Success
+200
+http://nossasenhoradenazare.pi.leg.br
+Success
+200
+
+Nossa Senhora dos Remédios
+http://nossasenhoradosremedios.pi.gov.br
+Success
+200
+http://nossasenhoradosremedios.pi.leg.br
+Fail
+HTTPConnectionPool(host='nossasenhoradosremedios.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6A78B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Nova Santa Rita
+http://novasantarita.pi.gov.br
+Success
+200
+http://novasantarita.pi.leg.br
+Fail
+HTTPConnectionPool(host='novasantarita.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6F9580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Novo Oriente do Piauí
+http://novoorientedopiaui.pi.gov.br
+Success
+200
+http://novoorientedopiaui.pi.leg.br
+Success
+200
+
+Novo Santo Antônio
+http://novosantoantonio.pi.gov.br
+Success
+200
+http://novosantoantonio.pi.leg.br
+Success
+200
+
+Oeiras
+http://oeiras.pi.gov.br
+Success
+200
+http://oeiras.pi.leg.br
+Success
+200
+
+Olho D Água do Piauí
+http://olhodaguadopiaui.pi.gov.br
+Success
+200
+http://olhodaguadopiaui.pi.leg.br
+Success
+200
+
+Padre Marcos
+http://padremarcos.pi.gov.br
+Success
+200
+http://padremarcos.pi.leg.br
+Success
+200
+
+Paes Landim
+http://paeslandim.pi.gov.br
+Success
+200
+http://paeslandim.pi.leg.br
+Fail
+HTTPConnectionPool(host='paeslandim.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Pajeú do Piauí
+http://pajeudopiaui.pi.gov.br
+Success
+200
+http://pajeudopiaui.pi.leg.br
+Success
+200
+
+Palmeira do Piauí
+http://palmeiradopiaui.pi.gov.br
+Success
+200
+http://palmeiradopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='palmeiradopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716C40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Palmeirais
+http://palmeirais.pi.gov.br
+Success
+200
+http://palmeirais.pi.leg.br
+Success
+200
+
+Paquetá
+http://paqueta.pi.gov.br
+Success
+200
+http://paqueta.pi.leg.br
+Success
+200
+
+Parnaguá
+http://parnagua.pi.gov.br
+Success
+200
+http://parnagua.pi.leg.br
+Fail
+HTTPConnectionPool(host='parnagua.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6BA640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Parnaíba
+http://parnaiba.pi.gov.br
+Fail
+404
+http://parnaiba.pi.leg.br
+Success
+200
+
+Passagem Franca do Piauí
+http://passagemfrancadopiaui.pi.gov.br
+Success
+200
+http://passagemfrancadopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='passagemfrancadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6C6730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Patos do Piauí
+http://patosdopiaui.pi.gov.br
+Success
+200
+http://patosdopiaui.pi.leg.br
+Success
+200
+
+Pau D Arco do Piauí
+http://paudarcodopiaui.pi.gov.br
+Success
+200
+http://paudarcodopiaui.pi.leg.br
+Success
+200
+
+Paulistana
+http://paulistana.pi.gov.br
+Success
+200
+http://paulistana.pi.leg.br
+Success
+200
+
+Pavussu
+http://pavussu.pi.gov.br
+Success
+200
+http://pavussu.pi.leg.br
+Success
+200
+
+Pedro II
+http://pedroii.pi.gov.br
+Success
+200
+http://pedroii.pi.leg.br
+Success
+200
+
+Pedro Laurentino
+http://pedrolaurentino.pi.gov.br
+Success
+200
+http://pedrolaurentino.pi.leg.br
+Success
+200
+
+Picos
+http://picos.pi.gov.br
+Success
+200
+http://picos.pi.leg.br
+Success
+200
+
+Pimenteiras
+http://pimenteiras.pi.gov.br
+Success
+200
+http://pimenteiras.pi.leg.br
+Success
+200
+
+Pio IX
+http://pioix.pi.gov.br
+Success
+200
+http://pioix.pi.leg.br
+Success
+200
+
+Piracuruca
+http://piracuruca.pi.gov.br
+Success
+200
+http://piracuruca.pi.leg.br
+Success
+200
+
+Piripiri
+http://piripiri.pi.gov.br
+Success
+200
+http://piripiri.pi.leg.br
+Fail
+HTTPConnectionPool(host='piripiri.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A615C40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Porto
+http://porto.pi.gov.br
+Success
+200
+http://porto.pi.leg.br
+Fail
+404
+
+Porto Alegre do Piauí
+http://portoalegredopiaui.pi.gov.br
+Success
+200
+http://portoalegredopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='portoalegredopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6D71F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Prata do Piauí
+http://pratadopiaui.pi.gov.br
+Success
+200
+http://pratadopiaui.pi.leg.br
+Success
+200
+
+Queimada Nova
+http://queimadanova.pi.gov.br
+Success
+200
+http://queimadanova.pi.leg.br
+Success
+200
+
+Redenção do Gurguéia
+http://redencaodogurgueia.pi.gov.br
+Success
+200
+http://redencaodogurgueia.pi.leg.br
+Success
+200
+
+Regeneração
+http://regeneracao.pi.gov.br
+Success
+200
+http://regeneracao.pi.leg.br
+Success
+200
+
+Riacho Frio
+http://riachofrio.pi.gov.br
+Success
+200
+http://riachofrio.pi.leg.br
+Success
+200
+
+Ribeira do Piauí
+http://ribeiradopiaui.pi.gov.br
+Success
+200
+http://ribeiradopiaui.pi.leg.br
+Fail
+404
+
+Ribeiro Gonçalves
+http://ribeirogoncalves.pi.gov.br
+Success
+200
+http://ribeirogoncalves.pi.leg.br
+Success
+200
+
+Rio Grande do Piauí
+http://riograndedopiaui.pi.gov.br
+Success
+200
+http://riograndedopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='riograndedopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A716B20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Santa Cruz do Piauí
+http://santacruzdopiaui.pi.gov.br
+Success
+200
+http://santacruzdopiaui.pi.leg.br
+Success
+200
+
+Santa Cruz dos Milagres
+http://santacruzdosmilagres.pi.gov.br
+Success
+200
+http://santacruzdosmilagres.pi.leg.br
+Success
+200
+
+Santa Filomena
+http://santafilomena.pi.gov.br
+Success
+200
+http://santafilomena.pi.leg.br
+Fail
+HTTPConnectionPool(host='santafilomena.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6F9850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Santa Luz
+http://santaluz.pi.gov.br
+Success
+200
+http://santaluz.pi.leg.br
+Success
+200
+
+Santa Rosa do Piauí
+http://santarosadopiaui.pi.gov.br
+Success
+200
+http://santarosadopiaui.pi.leg.br
+Success
+200
+
+Santana do Piauí
+http://santanadopiaui.pi.gov.br
+Success
+200
+http://santanadopiaui.pi.leg.br
+Success
+200
+
+Santo Antônio de Lisboa
+http://santoantoniodelisboa.pi.gov.br
+Success
+200
+http://santoantoniodelisboa.pi.leg.br
+Success
+200
+
+Santo Antônio dos Milagres
+http://santoantoniodosmilagres.pi.gov.br
+Success
+200
+http://santoantoniodosmilagres.pi.leg.br
+Success
+200
+
+Santo Inácio do Piauí
+http://santoinaciodopiaui.pi.gov.br
+Success
+200
+http://santoinaciodopiaui.pi.leg.br
+Success
+200
+
+São Braz do Piauí
+http://saobrazdopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='saobrazdopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://saobrazdopiaui.pi.leg.br
+Success
+200
+
+São Félix do Piauí
+http://saofelixdopiaui.pi.gov.br
+Fail
+500
+http://saofelixdopiaui.pi.leg.br
+Success
+200
+
+São Francisco de Assis do Piauí
+http://saofranciscodeassisdopiaui.pi.gov.br
+Fail
+HTTPConnectionPool(host='saofranciscodeassisdopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A72A3D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+http://saofranciscodeassisdopiaui.pi.leg.br
+Success
+200
+
+São Francisco do Piauí
+http://saofranciscodopiaui.pi.gov.br
+Success
+200
+http://saofranciscodopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='saofranciscodopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6A7BE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+São Gonçalo do Gurguéia
+http://saogoncalodogurgueia.pi.gov.br
+Success
+200
+http://saogoncalodogurgueia.pi.leg.br
+Fail
+HTTPConnectionPool(host='saogoncalodogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729AC0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+
+São Gonçalo do Piauí
+http://saogoncalodopiaui.pi.gov.br
+Success
+200
+http://saogoncalodopiaui.pi.leg.br
+Success
+200
+
+São João da Canabrava
+http://saojoaodacanabrava.pi.gov.br
+Success
+200
+http://saojoaodacanabrava.pi.leg.br
+Success
+200
+
+São João da Fronteira
+http://saojoaodafronteira.pi.gov.br
+Success
+200
+http://saojoaodafronteira.pi.leg.br
+Success
+200
+
+São João da Serra
+http://saojoaodaserra.pi.gov.br
+Success
+200
+http://saojoaodaserra.pi.leg.br
+Success
+200
+
+São João da Varjota
+http://saojoaodavarjota.pi.gov.br
+Success
+200
+http://saojoaodavarjota.pi.leg.br
+Success
+200
+
+São João do Arraial
+http://saojoaodoarraial.pi.gov.br
+Fail
+HTTPConnectionPool(host='saojoaodoarraial.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6D7640>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+http://saojoaodoarraial.pi.leg.br
+Success
+200
+
+São João do Piauí
+http://saojoaodopiaui.pi.gov.br
+Success
+200
+http://saojoaodopiaui.pi.leg.br
+Success
+200
+
+São José do Divino
+http://saojosedodivino.pi.gov.br
+Success
+200
+http://saojosedodivino.pi.leg.br
+Success
+200
+
+São José do Peixe
+http://saojosedopeixe.pi.gov.br
+Success
+200
+http://saojosedopeixe.pi.leg.br
+Success
+200
+
+São José do Piauí
+http://saojosedopiaui.pi.gov.br
+Success
+200
+http://saojosedopiaui.pi.leg.br
+Success
+200
+
+São Julião
+http://saojuliao.pi.gov.br
+Success
+200
+http://saojuliao.pi.leg.br
+Success
+200
+
+São Lourenço do Piauí
+http://saolourencodopiaui.pi.gov.br
+Success
+200
+http://saolourencodopiaui.pi.leg.br
+Fail
+404
+
+São Luis do Piauí
+http://saoluisdopiaui.pi.gov.br
+Success
+200
+http://saoluisdopiaui.pi.leg.br
+Success
+200
+
+São Miguel da Baixa Grande
+http://saomigueldabaixagrande.pi.gov.br
+Success
+200
+http://saomigueldabaixagrande.pi.leg.br
+Success
+200
+
+São Miguel do Fidalgo
+http://saomigueldofidalgo.pi.gov.br
+Fail
+500
+http://saomigueldofidalgo.pi.leg.br
+Success
+200
+
+São Miguel do Tapuio
+http://saomigueldotapuio.pi.gov.br
+Success
+200
+http://saomigueldotapuio.pi.leg.br
+Success
+200
+
+São Pedro do Piauí
+http://saopedrodopiaui.pi.gov.br
+Success
+200
+http://saopedrodopiaui.pi.leg.br
+Success
+200
+
+São Raimundo Nonato
+http://saoraimundononato.pi.gov.br
+Success
+200
+http://saoraimundononato.pi.leg.br
+Success
+200
+
+Sebastião Barros
+http://sebastiaobarros.pi.gov.br
+Success
+200
+http://sebastiaobarros.pi.leg.br
+Fail
+HTTPConnectionPool(host='sebastiaobarros.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A6E6E20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Sebastião Leal
+http://sebastiaoleal.pi.gov.br
+Success
+200
+http://sebastiaoleal.pi.leg.br
+Success
+200
+
+Sigefredo Pacheco
+http://sigefredopacheco.pi.gov.br
+Success
+200
+http://sigefredopacheco.pi.leg.br
+Success
+200
+
+Simões
+http://simoes.pi.gov.br
+Success
+200
+http://simoes.pi.leg.br
+Success
+200
+
+Simplício Mendes
+http://simpliciomendes.pi.gov.br
+Success
+200
+http://simpliciomendes.pi.leg.br
+Success
+200
+
+Socorro do Piauí
+http://socorrodopiaui.pi.gov.br
+Success
+200
+http://socorrodopiaui.pi.leg.br
+Success
+200
+
+Sussuapara
+http://sussuapara.pi.gov.br
+Success
+200
+http://sussuapara.pi.leg.br
+Success
+200
+
+Tamboril do Piauí
+http://tamborildopiaui.pi.gov.br
+Success
+200
+http://tamborildopiaui.pi.leg.br
+Fail
+HTTPConnectionPool(host='tamborildopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A72AA60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Tanque do Piauí
+http://tanquedopiaui.pi.gov.br
+Success
+200
+http://tanquedopiaui.pi.leg.br
+Success
+200
+
+Teresina
+http://teresina.pi.gov.br
+Success
+200
+http://teresina.pi.leg.br
+Fail
+HTTPConnectionPool(host='teresina.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A729940>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+Uniao
+http://uniao.pi.gov.br
+Success
+200
+http://uniao.pi.leg.br
+Success
+200
+
+Uruçuí
+http://urucui.pi.gov.br
+Success
+200
+http://urucui.pi.leg.br
+Success
+200
+
+Valença do Piauí
+http://valencadopiaui.pi.gov.br
+Success
+200
+http://valencadopiaui.pi.leg.br
+Success
+200
+
+Várzea Branca
+http://varzeabranca.pi.gov.br
+Success
+200
+http://varzeabranca.pi.leg.br
+Fail
+HTTPConnectionPool(host='varzeabranca.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F35A696D00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Várzea Grande
+http://varzeagrande.pi.gov.br
+Success
+200
+http://varzeagrande.pi.leg.br
+Success
+200
+
+Vera Mendes
+http://veramendes.pi.gov.br
+Success
+200
+http://veramendes.pi.leg.br
+Fail
+404
+
+Vila Nova do Piauí
+http://vilanovadopiaui.pi.gov.br
+Success
+200
+http://vilanovadopiaui.pi.leg.br
+Success
+200
+
+Wall Ferraz
+http://wallferraz.pi.gov.br
+Success
+200
+http://wallferraz.pi.leg.br
+Success
+200
