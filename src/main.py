@@ -6,6 +6,6 @@ def remove_accents(string):
 file = open('assets/municipios.txt', 'r', encoding='utf8')
 
 for line in file:
-    print(remove_accents(line.lower()))
+    print(remove_accents(line.lower()).replace(" ", ""))
 
 file.close()
