@@ -27,10 +27,10 @@ Success
 Alagoinha do Piauí
 http://alagoinhadopiaui.pi.gov.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000201C9850580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 http://alagoinhadopiaui.pi.leg.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000201C985B160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Other error occurred: HTTPConnectionPool(host='alagoinhadopiaui.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 
 Alegrete do Piauí
 http://alegretedopiaui.pi.gov.br
@@ -62,7 +62,7 @@ Success
 <Response [200]>
 http://alvoradadogurgueia.pi.leg.br
 Fail
-Other error occurred: HTTPConnectionPool(host='alvoradadogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000201C9C88820>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Other error occurred: HTTPConnectionPool(host='alvoradadogurgueia.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D74E760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 
 Amarante
 http://amarante.pi.gov.br
@@ -75,9 +75,23 @@ HTTP error occurred: 404 Client Error: Not Found for url: http://amarante.pi.leg
 Angical do Piauí
 http://angicaldopiaui.pi.gov.br
 Fail
-Other error occurred: HTTPConnectionPool(host='angicaldopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000201C9C88940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Other error occurred: HTTPConnectionPool(host='angicaldopiaui.pi.gov.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D6F7580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 http://angicaldopiaui.pi.leg.br
 Success
 <Response [200]>
 
 Anísio de Abreu
+http://anisiodeabreu.pi.gov.br
+Success
+<Response [200]>
+http://anisiodeabreu.pi.leg.br
+Fail
+Other error occurred: HTTPConnectionPool(host='anisiodeabreu.pi.leg.br', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC2D74E820>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Antônio Almeida
+http://antonioalmeida.pi.gov.br
+Fail
+HTTP error occurred: 406 Client Error: Not Acceptable for url: http://antonioalmeida.pi.gov.br/
+http://antonioalmeida.pi.leg.br
+Success
+<Response [200]>

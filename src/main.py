@@ -1,6 +1,10 @@
 import requests
 from requests.exceptions import HTTPError
 from unicodedata import normalize
+import pandas as pd
+import time
+#from requests.adapters import HTTPAdapter
+#from requests.packages.urllib3.util.retry import Retry
 
 def remove_accents(string):
     return normalize('NFKD', string).encode('ASCII', 'ignore').decode('ASCII')
@@ -52,40 +56,75 @@ def testConnection(municipio):
 
     return [gov_result, leg_result]
 
-def handleResult(finalResponse, file):
-    file.write("\n" + finalResponse[0][0])
-    print("url: {}".format(finalResponse[0][0]))
+def handleResult(response, municipio, persistFormat, Municipio, UrlGov, StatusGov, RequestResponseGov, UrlLeg, StatusLeg, RequestResponseLeg):
 
-    file.write("\n" + finalResponse[0][1])
-    print("status: {}".format(finalResponse[0][1]))
+    if (persistFormat == "txt") | (persistFormat == "all"):
+        resultsTxt = open("assets/results.txt", "a")
+        print("\nMunicípio: {}".format(municipio))
+        resultsTxt.write("\n\n" + municipio)
 
-    file.write("\n" + str(finalResponse[0][2]))
-    print("response request message: {}".format(finalResponse[0][2]))
+        resultsTxt.write("\n" + response[0][0])
+        print("url: {}".format(response[0][0]))
 
-    file.write("\n" + finalResponse[1][0])
-    print("url: {}".format(finalResponse[1][0]))
+        resultsTxt.write("\n" + response[0][1])
+        print("status: {}".format(response[0][1]))
 
-    file.write("\n" + finalResponse[1][1])
-    print("status: {}".format(finalResponse[1][1]))
+        resultsTxt.write("\n" + str(response[0][2]))
+        print("response request message: {}".format(response[0][2]))
 
-    file.write("\n" + str(finalResponse[1][2]))
-    print("response request message: {}".format(finalResponse[1][2]))
+        resultsTxt.write("\n" + response[1][0])
+        print("url: {}".format(response[1][0]))
+
+        resultsTxt.write("\n" + response[1][1])
+        print("status: {}".format(response[1][1]))
+
+        resultsTxt.write("\n" + str(response[1][2]))
+        print("response request message: {}".format(response[1][2]))
+
+    if (persistFormat == "xlsx") | (persistFormat == "all"):
+
+        Municipio.append(municipio)
+
+        UrlGov.append(response[0][0])
+        StatusGov.append(response[0][1])
+        RequestResponseGov.append(str(response[0][2]))
+
+        UrlLeg.append(response[1][0])
+        StatusLeg.append(response[1][1])
+        RequestResponseLeg.append(str(response[1][2]))
 
 if __name__ == '__main__':
+
     municipios = []
-    resultados = open("assets/results.txt", "a")
+    Municipio = []
+    UrlGov = []
+    StatusGov = []
+    RequestResponseGov = []
+    UrlLeg = []
+    StatusLeg = []
+    RequestResponseLeg = []
 
     getMunicipios(municipios)
     
     for municipio in municipios:
-        print('\n')
+        handleResult(testConnection(municipio), municipio, 'all', 
+                    Municipio, 
+                    UrlGov, StatusGov, RequestResponseGov, 
+                    UrlLeg, StatusLeg, RequestResponseLeg
+        )
 
-        print("Município: {}".format(municipio))
-        resultados.write("\n\n" + municipio)
-        handleResult(testConnection(municipio), resultados)
+    planilha = pd.DataFrame({
+        'Município': Municipio,
+        'UrlGov': UrlGov,
+        'StatusGov': StatusGov,
+        'RequestResponseGov': RequestResponseGov,
+        'UrlLeg': UrlLeg,
+        'StatusLeg': StatusLeg,
+        'RequestResponseLeg': RequestResponseLeg
+    })
 
-    resultados.close()
-    print("Total de municípios: {}".format(len(municipios)))
+    planilha.to_excel('assets/planilha_teste.xlsx')
+    
 '''
 Devolve cópia de uma str substituindo os caracteres
 acentuados pelos seus equivalentes não acentuados.
