@@ -1,4 +1,5 @@
 import requests
+from requests.exceptions import HTTPError
 from unicodedata import normalize
 
 def remove_accents(string):
@@ -19,19 +20,46 @@ def createUrl(municipio, type_url):
     municipio_url_prefix = adjustMunicipioName(municipio)
     
     if type_url == 0:
-        return municipio_url_prefix + '.pi.gov.br'
+        return 'http://' + municipio_url_prefix + '.pi.gov.br'
     else: 
-        return municipio_url_prefix + '.pi.leg.br'
+        return 'http://' + municipio_url_prefix + '.pi.leg.br'
 
-def testConnection(municipio):
-    gov = 0
-    leg = 1
+def request(url):
+    status = "Fail"
+    request_response_message = ""
 
-    urlGov = createUrl(municipio, gov)
-    urlLeg = createUrl(municipio, leg)
-
-    return [urlGov, urlLeg]
+    try: 
+        response = requests.get(url)
+        response.raise_for_status()
+    except HTTPError as http_err:
+        request_response_message = f'HTTP error occurred: {http_err}'
+        print(request_response_message)   
+    except Exception as err:
+        request_response_message = f'Other error occurred: {err}'
+        print(request_response_message)  
+    else:
+        request_response_message = response
+        status = "Success"
     
+    return [url, status, request_response_message]
+    
+def testConnection(municipio):
+    gov_type = 0
+    leg_type = 1
+
+    gov_result = request(createUrl(municipio, gov_type))
+    leg_result = request(createUrl(municipio, leg_type))
+
+    return [gov_result, leg_result]
+
+def handleResult(finalResponse):
+    print("url: {}".format(finalResponse[0][0]))
+    print("status: {}".format(finalResponse[0][1]))
+    print("response request message: {}".format(finalResponse[0][2]))
+
+    print("url: {}".format(finalResponse[1][0]))
+    print("status: {}".format(finalResponse[1][1]))
+    print("response request message: {}".format(finalResponse[1][2]))
 
 if __name__ == '__main__':
     municipios = []
@@ -39,22 +67,14 @@ if __name__ == '__main__':
     count = 0
 
     getMunicipios(municipios)
-    print(municipios)
     
     for municipio in municipios:
-        urls.append(testConnection(municipio))
-
-        '''
-        urlsGov.append(createUrlGov(municipio))
-        urlsLeg.append(createUrlLeg(municipio))
-
-        print(urlsGov[count])
-        print(urlsLeg[count])
         print('\n')
-        count = count + 1
-    '''
+
+        print("Município: {}".format(municipio))
+        handleResult(testConnection(municipio))
+
     print("Total de municípios: {}".format(len(municipios)))
-    print(urls)
 '''
 Devolve cópia de uma str substituindo os caracteres
 acentuados pelos seus equivalentes não acentuados.
