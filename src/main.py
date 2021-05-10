@@ -52,19 +52,28 @@ def testConnection(municipio):
 
     return [gov_result, leg_result]
 
-def handleResult(finalResponse):
+def handleResult(finalResponse, file):
+    file.write("\n" + finalResponse[0][0])
     print("url: {}".format(finalResponse[0][0]))
+
+    file.write("\n" + finalResponse[0][1])
     print("status: {}".format(finalResponse[0][1]))
+
+    file.write("\n" + str(finalResponse[0][2]))
     print("response request message: {}".format(finalResponse[0][2]))
 
+    file.write("\n" + finalResponse[1][0])
     print("url: {}".format(finalResponse[1][0]))
+
+    file.write("\n" + finalResponse[1][1])
     print("status: {}".format(finalResponse[1][1]))
+
+    file.write("\n" + str(finalResponse[1][2]))
     print("response request message: {}".format(finalResponse[1][2]))
 
 if __name__ == '__main__':
     municipios = []
-    urls = []
-    count = 0
+    resultados = open("assets/results.txt", "a")
 
     getMunicipios(municipios)
     
@@ -72,8 +81,10 @@ if __name__ == '__main__':
         print('\n')
 
         print("Município: {}".format(municipio))
-        handleResult(testConnection(municipio))
+        resultados.write("\n\n" + municipio)
+        handleResult(testConnection(municipio), resultados)
 
+    resultados.close()
     print("Total de municípios: {}".format(len(municipios)))
 '''
 Devolve cópia de uma str substituindo os caracteres
