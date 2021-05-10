@@ -25,9 +25,30 @@ def getMunicipios(municipiosList):
 
     file.close()
 
+def createUrlGov(municipio):
+    return municipio + '.pi.gov.br'
+
+def createUrlLeg(municipio):
+    return municipio + '.pi.leg.br'
+
 if __name__ == '__main__':
     municipios = []
+    urlsGov = []
+    urlsLeg = []
+    count = 0
+
     getMunicipios(municipios)
 
     for municipio in municipios:
         print(municipio)
+
+        urlsGov.append(createUrlGov(municipio))
+        urlsLeg.append(createUrlLeg(municipio))
+
+        print(urlsGov[count])
+        print(urlsLeg[count])
+        print('\n')
+        count = count + 1
+    
+    print("Total de municípios: {}".format(len(municipios)))
+    
